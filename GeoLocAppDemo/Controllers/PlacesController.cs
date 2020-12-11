@@ -26,7 +26,7 @@ namespace GeoLocAppDemo.Controllers
         /// </summary>
         /// /// <remarks>
         /// Sample **request**:
-        ///         GET /places/?location=-33,150/radius=1500/type=restaurant
+        ///         GET /places/?location=51.5074,0.1278/radius=1500/type=restaurant
         /// </remarks>
         [HttpGet]
         public async Task<ActionResult<List<PlaceApiModel>>> Get([FromQuery] QueryPlaceModel model)
